@@ -1,0 +1,1 @@
+#(*) Program to find nth fibo series(assume 1st and 2nd terms as 1 and 2)

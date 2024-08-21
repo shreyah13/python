@@ -1,0 +1,1 @@
+# Program to assume 1 and 2 are 1st 2 terms of the seriesand print the 1st n terms of fibonacci series(Hemachandra numbers)
