@@ -2,11 +2,10 @@
 
 num = int(input('Enter the number whose biggest and smallest digits are to be found: '))
 t = num
-digit = {}
+digit = []
 count = 0
-while num!=0:
+while num != 0:
     i = num % 10
-    if 
     digit.append(i)
     num = num // 10
 digit.sort()
