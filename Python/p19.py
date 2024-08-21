@@ -1,0 +1,1 @@
+# Program to print right angled triangle of n lines
