@@ -1,0 +1,1 @@
+# Program to print math table of a number
