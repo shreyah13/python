@@ -1,0 +1,1 @@
+# Find sum of the sries: n - n2/3 + n4/5 - n8/7 .... m terms (1<m<10)

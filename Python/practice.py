@@ -1,7 +1,4 @@
 # program to find 2nd smallest digit in a number
-for i in range(10):
-    print(i)
-    i+=1
 
 num = int(input('Enter the number whose biggest and smallest digits are to be found: '))
 t = num

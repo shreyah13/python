@@ -1,0 +1,1 @@
+# Find sum of the series: 1 - n + n2 - n3 .... m terms
