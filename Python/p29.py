@@ -1,0 +1,1 @@
+# Find sum of the series: n + n(2) + n(3) + ..... m terms

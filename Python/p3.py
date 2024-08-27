@@ -2,5 +2,5 @@
 
 x = int(input('Enter either of 0 or 1: '))
 if x == 0 or x == 1:
-    y=1-x
+    y = 1 - x
     print(y)

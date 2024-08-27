@@ -1,2 +1,2 @@
 
-# Program to print X shae inside hollow square
+# Program to print X shape inside hollow square
