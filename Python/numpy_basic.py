@@ -82,13 +82,56 @@ print(f'Vector shape: {vector.shape}')
 
 
 array14 = np.arange(12)
-a1 = array14.reshape(2,6)
-print(f'Rshaped array1 is \n {a1}')
-a2 = a1.reshape(2,6)
-print(f'Rshaped array1 is \n {a2}')
-a3 = a2.reshape(2,6)
-print(f'Rshaped array1 is \n {a3}')
-a4 = a3.reshape(2,6)
-print(f'Rshaped array1 is \n {a4}')
-a5 = a4.reshape(2,6)
-print(f'Rshaped array1 is \n {a5}')
+a1 = array14.reshape(2, 6)
+print(f'Reshaped array1 is \n {a1}')
+a2 = a1.reshape(2, 6)
+print(f'Reshaped array1 is \n {a2}')
+a3 = a2.reshape(2, 6)
+print(f'Reshaped array1 is \n {a3}')
+a4 = a3.reshape(2, 6)
+print(f'Reshaped array1 is \n {a4}')
+a5 = a4.reshape(2, 6)
+print(f'Reshaped array1 is \n {a5}')
+
+
+array15 = np.arange(1, 10).reshape(3, -1)
+print(array15)
+
+
+array16 = np.arange(1, 10).reshape(3, -1)
+print(array16)
+array16 = np.array([2, 5, 7])
+matrix5 = np.array([[4, 6, 8], [12, 16, 20]])
+result = matrix5 + array16
+# Broadcasting of array with matrix
+print(f'Result is \n {result}')
+
+
+array17 = np.arange(1, 10)
+array18 = np.arange(2, 25, 2)
+print(f'array1 is \n {array17}')
+print(f'array2 is \n {array18}')
+array19 = array17.reshape(3, -1)
+print(f'Reshaped array1 is \n {array19}')
+array20 = array18.reshape(4, -1)
+print(f'Reshaped array2 is \n {array20}')
+array21 = array18.reshape(2, -1)
+print(f'Reshaped array3 is \n {array21}')
+array22 = array18.reshape(-1, 4)
+print(f'Reshaped array4 is \n {array22}')
+
+
+data1 = np.array([1, 2, 3, 4, 5, 6])
+data2 = np.array([2, 9, 3, 4, 0, 8])
+data = np.stack((data1, data2), axis = 0)
+print(f'Data = \n {data}')
+corelation_matrix = np.corrcoef(data)
+print(f'Corelation Matrix is \n {corelation_matrix}')
+
+
+data3 = np.array([[1, 2, 3, 4],[11, 22, 33, 44],[10, 20, 30, 40]])
+print(f'Data is {data3}')
+data4 = data3[ : 4]
+print(f'Modified data1 is \n {data4}')
+data5 = data3[3 : ]
+print(f'Modified data2 is \n {data5}')
